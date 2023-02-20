@@ -5,7 +5,7 @@ body {
   }
   
   header {
-    flex: 0 80px;
+    flex: 0 100px;
   }
   
   main {
@@ -167,3 +167,21 @@ body {
       height: 100% !important;
       font-size: 50px !important;
   }
+
+.fancy
+{
+  animation-name: colors;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes colors
+{
+0%      { color: red;    }
+50%     { color: orange; }
+100%    { color: red;    }
+}
+#large
+{
+    color: green;
+    font-size: 50px;
+}
